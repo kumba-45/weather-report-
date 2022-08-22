@@ -1,0 +1,68 @@
+.card {
+    border : 2px solid;
+    width: 500px;
+    height: 300px;
+    box-shadow: 5px 20px 20px 10px  #888888;
+    
+    margin: auto;
+    
+     border-radius: 50px;
+    background-color: lightskyblue;
+    animation:move infinite;
+    animation-duration: 5s;
+    
+
+}
+@keyframes move {
+    from {top:0px;}
+    to{top:1000px;}
+    
+}
+
+.h1{
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 2px 2px lightblue;
+    
+    
+    
+}
+.input {
+    margin-left: 120px;
+    margin-top: 25px;
+
+}
+.input1{
+    width: 250px;
+    text-align: center;
+    height:25px;
+    font-size: 150%;
+    color:black;
+    border-style: inset;
+    
+}
+.input1:hover {
+
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.input2{
+    margin-top: 25px;
+    margin-left: 20%;
+    width:30%;
+    height:25px;
+    
+}
+.input2:hover{
+    background-color: red;
+    color:white;
+    border-radius: 5%;
+}
+.para{
+    color:blue;
+    font-size: 25px;
+    text-align: center;
+}
+.para:hover{
+    color:red;
+}
